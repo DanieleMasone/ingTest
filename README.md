@@ -18,9 +18,9 @@ You can check the health of the application by running the following command:
 
 Or run application directly in your ide, than go to your browser and digit:
 
-1) localhost:8080/api/  -->  "Test service work!"
+## 1) localhost:8080/api/  -->  "Test service work!"
 
-2) localhost:8080/api/{cityName}
+## 2) REST API exposed: localhost:8080/api/{cityName}
 
 # Documentation
 GUI documentation of the REST API available on:
