@@ -69,12 +69,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
+                   <artifactSet>
+                        <includes>
+                            <include>org.json:json</include>
+                        </includes>
+                    </artifactSet>
 				</configuration>
 			</plugin>
 		</plugins>
